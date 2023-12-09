@@ -39,11 +39,27 @@ header p:nth-child(5) {
 }
 
 header button {
+    color: white;
     font-size: 1.1em;
     padding: 12px;
-    border: 3px solid blue;
+    background-color: rgb(133, 4, 153);
     border-radius: 25px;
+    transition: background-color 0.5s ease-out 0.15s;
 }
+
+header button {
+    transition: border 0.5s ease-out 0.15s;
+}
+
+header button:hover {
+    border: 2px solid white;
+}
+
+header button:hover {
+    background-color: rgb(35, 35, 35);
+}
+
+
 
 header .start-meet-btn {
     margin-left: 20px;
@@ -91,10 +107,16 @@ main p:nth-child(2) {
 }
 
 main button:nth-child(1) {
-    background-color: violet;
-    font-size: 1.3em;
+    background-color: rgb(133, 4, 153);
+    color: white;   
+    font-weight: 800;
+    font-size: 1.4em;
     height: 3.2em;
     margin-right: 5px;
+}
+
+main button:nth-child(1):hover {
+    background-color: rgb(35, 35, 35);
 }
 
 main button:nth-child(2) input {
@@ -105,10 +127,17 @@ main button:nth-child(2) input {
 }
 
 .code-and-join-btn {
+    background-color: rgb(35, 35, 35);
+    color: white;
+    font-weight: 800;
     padding: 10px;
     font-size: 1.2em;
-    width: 300px;
+    width: 320px;
     margin-top: 25px;
+    transition: background-color 0.5s ease-in 0.15s;
 }
 
+.code-and-join-btn:hover {
+    border: 2px solid white;
+}
 
