@@ -1,0 +1,24 @@
+{
+  "name": "google_meet_clone",
+  "version": "1.0.0",
+  "description": "video conferencing app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inquisitive-Rishi/google_meet_clone.git"
+  },
+  "author": "rishi raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Inquisitive-Rishi/google_meet_clone/issues"
+  },
+  "homepage": "https://github.com/Inquisitive-Rishi/google_meet_clone#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
