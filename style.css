@@ -8,6 +8,7 @@ body {
     color: white;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     height: 100vh;
     background-color: rgb(35, 35, 35);
     font-family: sans-serif;
@@ -91,7 +92,7 @@ main {
 }
 
 main .right-main img {
-   height: 580px;
+   height: 500px;
    width: auto;
    border: 20px solid white;
    border-radius: 10px;
@@ -110,9 +111,16 @@ main button:nth-child(1) {
     background-color: rgb(133, 4, 153);
     color: white;   
     font-weight: 800;
-    font-size: 1.4em;
+    font-size: 1rem;
     height: 3.2em;
     margin-right: 5px;
+}
+
+main button:nth-child(2) {
+    height: 50px;
+    width: 350px;
+    font-size: 1.3em;
+    padding: 5px;
 }
 
 main button:nth-child(1):hover {
@@ -120,9 +128,9 @@ main button:nth-child(1):hover {
 }
 
 main button:nth-child(2) input {
-    height: 40px;
+    height: 30px;
     width: 300px;
-    font-size: 1.3em;
+    font-size: 1.1em;
     padding: 5px;
 }
 
@@ -137,7 +145,7 @@ main button:nth-child(2) input {
     transition: background-color 0.5s ease-in 0.15s;
 }
 
-.code-and-join-btn:hover {
+.code-and-join-btn:hover, main button:nth-child(1):hover {
     border: 2px solid white;
 }
 
